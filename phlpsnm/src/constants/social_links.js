@@ -1,11 +1,17 @@
 import React from "react"
-import {
-  FaFacebookSquare,
-  FaLinkedin,
-  FaDribbbleSquare,
-  FaBehanceSquare,
-  FaTwitterSquare,
-} from "react-icons/fa"
+// import {
+//   FaFacebookSquare,
+//   FaLinkedin,
+//   FaDribbbleSquare,
+//   FaBehanceSquare,
+//   FaTwitterSquare,
+// } from "@react-icons/all-files/fa/FaBeer"
+
+import { FaFacebookSquare } from "@react-icons/all-files/fa/FaFacebookSquare"
+import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin"
+import { FaDribbbleSquare } from "@react-icons/all-files/fa/FaDribbbleSquare"
+import { FaBehanceSquare } from "@react-icons/all-files/fa/FaBehanceSquare"
+import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare"
 
 const data = [
   {

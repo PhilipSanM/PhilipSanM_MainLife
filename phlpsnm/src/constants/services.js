@@ -1,5 +1,10 @@
 import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+// import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+
+import { FaCode } from "@react-icons/all-files/fa/FaCode"
+import { FaSketch } from "@react-icons/all-files/fa/FaSketch"
+import { FaAndroid } from "@react-icons/all-files/fa/FaAndroid"
+
 const services = [
   {
     id: 1,

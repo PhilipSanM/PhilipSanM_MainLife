@@ -18,11 +18,11 @@ require("dotenv").config({
 const strapiConfig = {
   apiURL: process.env.STRAPI_API_URL,
   accessToken: process.env.STRAPI_TOKEN,
-  collectionTypes: ["job"],
-  singleTypes: [],
+  collectionTypes: ["job", "project"],
+  singleTypes: ["about"],
   remoteFileHeaders: {
     /**
-     * Customized request headers
+     * Customized request headerss
      * For http request with a image or other files need authorization
      * For expamle: Fetch a CDN file which has a security config when gatsby building needs
      */
@@ -33,9 +33,24 @@ const strapiConfig = {
 
 module.exports = {
   plugins: [
+    `gatsby-plugin-image`,
+    "gatsby-plugin-image",
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
+
     {
       resolve: `gatsby-source-strapi`,
       options: strapiConfig,
+    },
+    {
+      // We need filesystem source plugin to add publicURL function to File nodes
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `placeholder`,
+        // path is required param, so let's just point it to single file to not create
+        // much unnecessary work for it
+        path: `${__dirname}/gatsby-config.js`,
+      },
     },
   ],
 }

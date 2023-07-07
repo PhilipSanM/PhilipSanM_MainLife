@@ -1,30 +1,27 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Hero from "../components/Hero"
-import Services from "../components/Services"
-import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 // import Seo from "../components/Seo"
-const IndexPage = ({ data }) => {
-  const {
+const ProjectsPage = ({
+  data: {
     allStrapiProject: { nodes: projects },
-  } = data
+  },
+}) => {
   return (
     <>
-      {/* <Seo title="Home" /> */}
+      {/* <Seo title="Projects" /> */}
       <main>
-        <Hero />
-        <Services />
-        <Jobs />
-        <Projects title="featured projects" showLink projects={projects} />
+        <section className="projects-page">
+          <Projects title="all projects" projects={projects} />
+        </section>
       </main>
     </>
   )
 }
 
 export const query = graphql`
-  {
-    allStrapiProject(filter: { featured: { eq: true } }) {
+  query {
+    allStrapiProject {
       nodes {
         description
         featured
@@ -40,14 +37,12 @@ export const query = graphql`
         image {
           localFile {
             childImageSharp {
-              gatsbyImageData(placeholder: BLURRED, layout: CONSTRAINED)
+              gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
             }
           }
         }
       }
-      totalCount
     }
   }
 `
-
-export default IndexPage
+export default ProjectsPage
