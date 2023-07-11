@@ -1,5 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
+
 // import Seo from "../../components/Seo"
 const ProjectTemplate = ({ pageContext: { title }, data }) => {
   return (
@@ -9,10 +11,15 @@ const ProjectTemplate = ({ pageContext: { title }, data }) => {
         description={data.strapiProject.description}
         image={data.strapiProject.image.publicURL}
       /> */}
-      <main className="project-template-page">
+      <div className="project-template-page">
         <h2>{title}</h2>
         <p>{data.strapiProject.description}</p>
-      </main>
+        <GatsbyImage
+          image={getImage(data.strapiProject.image.localFile)}
+          alt={title}
+          className="project-template-img"
+        />
+      </div>
     </>
   )
 }
@@ -24,7 +31,9 @@ export const query = graphql`
       title
       image {
         localFile {
-          publicURL
+          childImageSharp {
+            gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
+          }
         }
       }
     }

@@ -1,8 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
+
 import socialLinks from "../constants/social_links"
 // import heroImg from "../assets/images/hero.svg"
 import { StaticImage } from "gatsby-plugin-image"
+
+import Pdf from "../assets/pdfs/PhilipsanmResume.pdf"
 
 const Hero = () => {
   return (
@@ -11,11 +13,11 @@ const Hero = () => {
         <article className="hero-info">
           <div>
             <div className="underline"></div>
-            <h1>i'm john</h1>
-            <h4>freelance web and mobile UI/UX Designer</h4>
-            <Link to="/contact" className="btn">
-              contact me
-            </Link>
+            <h1>PhilipSanM</h1>
+            <h4>Jeremiah 29:11</h4>
+            <a href={Pdf} className="btn">
+              resume
+            </a>
             <div className="social-links">
               {socialLinks.map(link => {
                 return (
@@ -28,11 +30,15 @@ const Hero = () => {
           </div>
         </article>
         <StaticImage
-          src="../assets/images/hero.svg"
+          src="../assets/images/bochi.png"
           alt="portfolio"
-          className="hero-img"
+          // className="hero-img"
           placeholder="blurred"
+          layout="fixed"
+          width={500}
+          height={600}
         />
+
         {/* <img src={heroImg} alt="portfolio" className="hero-img-svg" /> */}
       </section>
     </header>

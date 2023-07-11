@@ -32,7 +32,16 @@ const strapiConfig = {
 }
 
 module.exports = {
+  siteMetadata: {
+    title: "PhilipSanM Portfolio",
+    description: "Hi, nOtHiNg tO sEe hErE, just my portfolio. ;B",
+    titleTemplate: "%s | phlpsnm Portfolio",
+    url: "https://philipsanm.github.io",
+    twitterUsername: "@PhilipSanM_",
+    image: "/phlpsnm.png",
+  },
   plugins: [
+    "gatsby-plugin-react-helmet",
     `gatsby-plugin-image`,
     "gatsby-plugin-image",
     "gatsby-transformer-sharp",
