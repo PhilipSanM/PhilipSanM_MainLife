@@ -298,6 +298,17 @@ Navbar
     background: transparent;
   }
 }
+
+/* LOGO */
+.navbar img {
+  width: 30%;
+  height: 30%;
+  margin-left: 20px;
+  margin-right: 90px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  /* POSITION TOP AND LEFT */
+}
 /*
 =============== 
 Sidebar

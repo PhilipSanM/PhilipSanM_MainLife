@@ -9,19 +9,19 @@ const services = [
   {
     id: 1,
     icon: <FaCode className="service-icon" />,
-    title: "web development",
+    title: "lmao",
     text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
   },
   {
     id: 2,
     icon: <FaSketch className="service-icon" />,
-    title: "web design",
+    title: "nop",
     text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
   },
   {
     id: 3,
     icon: <FaAndroid className="service-icon" />,
-    title: "app design",
+    title: "ali",
     text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
   },
 ]

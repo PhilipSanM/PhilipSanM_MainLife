@@ -7,38 +7,32 @@ import React from "react"
 //   FaTwitterSquare,
 // } from "@react-icons/all-files/fa/FaBeer"
 
-import { FaFacebookSquare } from "@react-icons/all-files/fa/FaFacebookSquare"
-import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin"
-import { FaDribbbleSquare } from "@react-icons/all-files/fa/FaDribbbleSquare"
-import { FaBehanceSquare } from "@react-icons/all-files/fa/FaBehanceSquare"
+import { SiLeetcode } from "@react-icons/all-files/Si/SiLeetcode"
+import { FaGithub } from "@react-icons/all-files/fa/FaGithub"
+import { FaKaggle } from "@react-icons/all-files/fa/FaKaggle"
 import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare"
 
 const data = [
-  // {
-  //   id: 1,
-  //   icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-  //   url: "https://www.twitter.com",
-  // },
-  // {
-  //   id: 2,
-  //   icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-  //   url: "https://www.twitter.com",
-  // },
-  // {
-  //   id: 3,
-  //   icon: <FaDribbbleSquare className="social-icon"></FaDribbbleSquare>,
-  //   url: "https://www.twitter.com",
-  // },
-  // {
-  //   id: 4,
-  //   icon: <FaBehanceSquare className="social-icon"></FaBehanceSquare>,
-  //   url: "https://www.twitter.com",
-  // },
-  // {
-  //   id: 5,
-  //   icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-  //   url: "https://www.twitter.com",
-  // },
+  {
+    id: 1,
+    icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
+    url: "https://twitter.com/PhilipSanM_",
+  },
+  {
+    id: 2,
+    icon: <SiLeetcode className="social-icon"></SiLeetcode>,
+    url: "https://leetcode.com/PhilipSanM",
+  },
+  {
+    id: 3,
+    icon: <FaKaggle className="social-icon"></FaKaggle>,
+    url: "https://www.kaggle.com/philipsanm",
+  },
+  {
+    id: 4,
+    icon: <FaGithub className="social-icon"></FaGithub>,
+    url: "https://github.com/PhilipSanM",
+  },
 ]
 
 export default data
