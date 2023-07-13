@@ -891,7 +891,8 @@ Project Template Page
 .project-template-img {
   /* Image in project template */
   margin: 2rem auto;
-  height: 25rem;
+  height: auto;
+  width: auto;
   border-radius: var(--radius);
   box-shadow: var(--dark-shadow);
 }
@@ -1068,5 +1069,9 @@ Welcom message
 } */
 
 .stats img {
-  margin-right: 300px;
+  margin-right: 30px;
+}
+
+.recipes-page {
+  background: var(--clr-crdbackground);
 }

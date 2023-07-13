@@ -1,16 +1,10 @@
 import React from "react"
-// import {
-//   FaFacebookSquare,
-//   FaLinkedin,
-//   FaDribbbleSquare,
-//   FaBehanceSquare,
-//   FaTwitterSquare,
-// } from "@react-icons/all-files/fa/FaBeer"
 
 import { SiLeetcode } from "@react-icons/all-files/Si/SiLeetcode"
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub"
 import { FaKaggle } from "@react-icons/all-files/fa/FaKaggle"
 import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare"
+import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin"
 
 const data = [
   {
@@ -32,6 +26,11 @@ const data = [
     id: 4,
     icon: <FaGithub className="social-icon"></FaGithub>,
     url: "https://github.com/PhilipSanM",
+  },
+  {
+    id: 5,
+    icon: <FaLinkedin className="social-icon"></FaLinkedin>,
+    url: "https://www.linkedin.com/in/philipsanm/",
   },
 ]
 

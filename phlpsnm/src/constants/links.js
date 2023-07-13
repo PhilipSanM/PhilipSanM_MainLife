@@ -14,6 +14,11 @@ const data = [
     text: "projects",
     url: "/projects/",
   },
+  {
+    id: 4,
+    text: "recipes",
+    url: "/recipes/",
+  },
 ]
 
 export default data
