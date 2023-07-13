@@ -7,6 +7,7 @@ import Projects from "../components/Projects"
 import Services from "../components/Services"
 import WelcomeMessage from "../components/WelcomeAnimation"
 import Seo from "../components/Seo"
+import Stats from "../components/Stats"
 const IndexPage = ({ data }) => {
   const {
     allStrapiProject: { nodes: projects },
@@ -18,19 +19,10 @@ const IndexPage = ({ data }) => {
         <WelcomeMessage />
         <Hero />
         <Jobs />
-        {/* <img
-          height="175em"
-          src="https://github-readme-stats.vercel.app/api/?username=PhilipSanM&count_private=true&theme=vision-friendly-dark&showicons=true"
-        />
-        <img
-          height="175em"
-          src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhilipSanM&layout=compact&theme=vision-friendly-dark"
-        />
-        <img
-          height="175em"
-          src="http://github-readme-streak-stats.herokuapp.com?user=PhilipSanM&theme=vision-friendly-dark&date_format=j%20M%5B%20Y%5D"
-        /> */}
+
         <Services />
+        <Stats />
+
         <Projects title="featured projects" showLink projects={projects} />
 
         <StaticImage

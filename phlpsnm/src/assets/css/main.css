@@ -301,8 +301,8 @@ Navbar
 
 /* LOGO */
 .navbar img {
-  width: 30%;
-  height: 30%;
+  width: 50%;
+  height: 50%;
   margin-left: 20px;
   margin-right: 90px;
   margin-top: 15px;
@@ -1050,4 +1050,23 @@ Welcom message
 .welcome-message.show {
   opacity: 1;
   font-family: var(--ff-opensans);
+}
+
+/* 
+  sponsor card github
+*/
+
+/* LOGO
+.navbar img {
+  width: 30%;
+  height: 30%;
+  margin-left: 20px;
+  margin-right: 90px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+
+} */
+
+.stats img {
+  margin-right: 300px;
 }

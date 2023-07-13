@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Title from "../components/Title"
 import Seo from "../components/Seo"
-
+import Stats from "../components/Stats"
 const About = ({ data }) => {
   const {
     strapiAbout: { title, image, info, stack },
@@ -28,6 +28,8 @@ const About = ({ data }) => {
           </article>
         </div>
       </section>
+      {/* statst */}
+      <Stats />
     </>
   )
 }
