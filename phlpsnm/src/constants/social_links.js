@@ -4,7 +4,8 @@ import { SiLeetcode } from "@react-icons/all-files/Si/SiLeetcode"
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub"
 import { FaKaggle } from "@react-icons/all-files/fa/FaKaggle"
 import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare"
-import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin"
+// import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin"
+import { IoMdMail } from "@react-icons/all-files/io/IoMdMail"
 
 const data = [
   {
@@ -29,8 +30,8 @@ const data = [
   },
   {
     id: 5,
-    icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.linkedin.com/in/philipsanm/",
+    icon: <IoMdMail className="social-icon"></IoMdMail>,
+    url: "mailto:phlpsnm@gmail.com",
   },
 ]
 

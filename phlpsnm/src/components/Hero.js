@@ -29,15 +29,16 @@ const Hero = () => {
             </div>
           </div>
         </article>
-        <StaticImage
-          src="../assets/images/bochi.png"
-          alt="portfolio"
-          // className="hero-img"
-          placeholder="blurred"
-          layout="fixed"
-          width={500}
-          height={600}
-        />
+        <div className="responsive-image-container">
+          <StaticImage
+            src="../assets/images/bochi.png"
+            alt="portfolio"
+            placeholder="blurred"
+            layout="fixed"
+            width={500}
+            height={600}
+          />
+        </div>
 
         {/* <img src={heroImg} alt="portfolio" className="hero-img-svg" /> */}
       </section>
