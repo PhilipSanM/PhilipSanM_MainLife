@@ -528,6 +528,17 @@ Hero
   }
 }
 
+.ryu-img {
+  /* Estilos para la imagen cuando el ancho de pantalla es mayor o igual a 1170px */
+  display: none; /* Oculta la imagen por defecto */
+}
+
+@media screen and (min-width: 992px) {
+  .ryu-img {
+    /* Estilos para la imagen cuando el ancho de pantalla es menor a 1170px */
+    display: block; /* Muestra la imagen cuando la pantalla es más grande */
+  }
+}
 /*
 =============== 
 Services
@@ -1070,6 +1081,32 @@ Welcom message
 
 .stats img {
   margin-right: 30px;
+}
+
+.github-stats {
+  /* Estilos para el contenedor cuando el ancho de pantalla es mayor o igual a 1170px */
+  display: none; /* Oculta el contenedor por defecto */
+  justify-content: center; /* Centra horizontalmente */
+  gap: 10px; /* Espacio entre los elementos internos */
+  align-items: center; /* Centra verticalmente */
+}
+
+.github-stats img {
+  /* Estilos para las imágenes dentro del contenedor */
+  margin: 0; /* Centra horizontalmente */
+  height: 8.8rem;
+}
+
+@media screen and (min-width: 1170px) {
+  .github-stats img {
+    height: 12rem; /* Muestra el contenedor cuando la pantalla es más grande */
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .github-stats {
+    display: flex; /* Muestra el contenedor cuando la pantalla es más grande */
+  }
 }
 
 .recipes-page {

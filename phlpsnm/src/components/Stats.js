@@ -94,27 +94,21 @@ const Stats = () => {
       <br />
       <br />
 
-      <div
-        style={{ display: "flex", justifyContent: "center", gap: "20px" }}
-        align="middle"
-      >
+      <div className="github-stats">
         <img
-          height="175em"
           src="https://github-readme-stats.vercel.app/api/?username=PhilipSanM&count_private=true&theme=vision-friendly-dark&showicons=true"
           alt="GitHub Stats"
-          style={{ maxWidth: "100%", margin: "0", padding: "0" }}
+          align="center"
         />
         <img
-          height="175em"
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhilipSanM&layout=compact&theme=vision-friendly-dark"
           alt="Top Languages"
-          style={{ maxWidth: "100%", margin: "0", padding: "0" }}
+          align="center"
         />
         <img
-          height="175em"
           src="http://github-readme-streak-stats.herokuapp.com?user=PhilipSanM&theme=vision-friendly-dark&date_format=j%20M%5B%20Y%5D"
           alt="GitHub Streak"
-          style={{ maxWidth: "100%", margin: "0", padding: "0" }}
+          align="center"
         />
       </div>
       <br />

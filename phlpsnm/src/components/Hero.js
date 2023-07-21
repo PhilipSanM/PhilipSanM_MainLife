@@ -29,7 +29,7 @@ const Hero = () => {
             </div>
           </div>
         </article>
-        <div className="responsive-image-container">
+        <div className="ryu-img">
           <StaticImage
             src="../assets/images/bochi.png"
             alt="portfolio"
