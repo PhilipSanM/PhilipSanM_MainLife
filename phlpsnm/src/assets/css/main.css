@@ -1112,3 +1112,28 @@ Welcom message
 .recipes-page {
   background: var(--clr-crdbackground);
 }
+
+.bochi-cry {
+  /* Estilos para la imagen cuando el ancho de pantalla es mayor o igual a 1170px */
+  display: none; /* Oculta la imagen por defecto */
+}
+
+@media screen and (min-width: 992px) {
+  .bochi-cry {
+    /* Estilos para la imagen cuando el ancho de pantalla es menor a 1170px */
+    display: block; /* Muestra la imagen cuando la pantalla es más grande */
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .bochi-cry {
+    display: block;
+    width: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .bochi-cry {
+    display: block;
+    width: auto;
+  }
+}

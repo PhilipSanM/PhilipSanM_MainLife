@@ -13,16 +13,16 @@ const Error = () => {
         <div className="recipes-container" align="center">
           <Title title="Recipes" />
           <h2>Sorry, run out of ingredients</h2>
-
-          <StaticImage
-            src="../assets/images/nop.png"
-            alt="nop"
-            // className="hero-img"
-            placeholder="blurred"
-            layout="fixed"
-            width={500}
-            height={600}
-          />
+          <div className="bochi-cry">
+            <StaticImage
+              src="../assets/images/nop.png"
+              alt="nop"
+              placeholder="blurred"
+              layout="fixed"
+              width={500}
+              height={600}
+            />
+          </div>
         </div>
       </main>
     </>

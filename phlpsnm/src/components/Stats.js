@@ -120,7 +120,11 @@ const Stats = () => {
           title="Sponsor PhilipSanM"
           height="225"
           width="600"
-          style={{ border: 0, borderRadius: "6px", margin: "auto" }}
+          style={{
+            border: 0,
+            borderRadius: "6px",
+            margin: "auto",
+          }}
         ></iframe>
       </div>
     </div>
