@@ -614,6 +614,7 @@ Jobs
 }
 .job-btn {
   background: transparent;
+  color: var(--clr-grey-3);
   border-color: transparent;
   text-transform: capitalize;
   font-size: 1.25rem;
