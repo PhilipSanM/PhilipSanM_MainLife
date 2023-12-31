@@ -4,7 +4,7 @@ import socialLinks from "../constants/social_links"
 // import heroImg from "../assets/images/hero.svg"
 import { StaticImage } from "gatsby-plugin-image"
 
-import Pdf from "../assets/pdfs/PhilipsanmResume.pdf"
+import Pdf from "../assets/pdfs/Phlpsnm_Resume.pdf"
 
 const Hero = () => {
   return (
@@ -14,7 +14,7 @@ const Hero = () => {
           <div>
             <div className="underline"></div>
             <h1>PhilipSanM</h1>
-            <h4>Jeremiah 29:11</h4>
+            <h4>Philippians 4:13</h4>
             <a href={Pdf} className="btn">
               resume
             </a>
