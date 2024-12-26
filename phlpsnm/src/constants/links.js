@@ -4,18 +4,18 @@ const data = [
     text: "home",
     url: "/",
   },
+  // {
+  //   id: 2,
+  //   text: "about",
+  //   url: "/about/",
+  // },
   {
     id: 2,
-    text: "about",
-    url: "/about/",
-  },
-  {
-    id: 3,
     text: "projects",
     url: "/projects/",
   },
   {
-    id: 4,
+    id: 3,
     text: "recipes",
     url: "/recipes/",
   },

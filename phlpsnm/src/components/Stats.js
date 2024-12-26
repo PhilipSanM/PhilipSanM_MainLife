@@ -8,16 +8,22 @@ const Stats = () => {
       <Title title={"stats"} />
 
       <div id="Tools" align="middle">
-        <a href="https://www.javascript.com/">
+        {/* <a href="https://www.javascript.com/">
           <img
             src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
             alt="JavaScript"
           />
-        </a>
+        </a> */}
         <a href="https://www.python.org">
           <img
             src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
             alt="Python"
+          />
+        </a>
+        <a href="https://www.postgresql.org/">
+          <img
+            src="https://img.shields.io/badge/SQL-5406C1.svg?style=for-the-badge&logo=postgresql&logoColor=white"
+            alt="postgres"
           />
         </a>
         <a href="https://www.r-project.org/">
@@ -26,11 +32,10 @@ const Stats = () => {
             alt="r"
           />
         </a>
-
-        <a href="https://code.visualstudio.com/">
+        <a href="https://en.cppreference.com/w/cpp/11">
           <img
-            src="https://img.shields.io/badge/Vsc-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"
-            alt="VSC"
+            src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"
+            alt="cplus"
           />
         </a>
         <a href="https://julialang.org/">
@@ -39,16 +44,23 @@ const Stats = () => {
             alt="julia"
           />
         </a>
-        <a href="https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html">
+
+        <a href="https://www.tensorflow.org/tfx?hl=es-419">
           <img
-            src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"
-            alt="java"
+            src="https://img.shields.io/badge/TFX-2238ff.svg?style=for-the-badge&logo=tensorflow&logoColor=white"
+            alt="TFX"
           />
         </a>
-        <a href="https://en.cppreference.com/w/cpp/11">
+        <a href="https://www.tensorflow.org/tfx?hl=es-419">
           <img
-            src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"
-            alt="cplus"
+            src="https://img.shields.io/badge/Tensorflow-DFA644.svg?style=for-the-badge&logo=tensorflow&logoColor=white"
+            alt="Tensorflow"
+          />
+        </a>
+        <a href="https://mlflow.org/">
+          <img
+            src="https://img.shields.io/badge/MLflow-E41EEB.svg?style=for-the-badge&logo=mlflow&logoColor=white"
+            alt="MLflow"
           />
         </a>
 
@@ -73,21 +85,14 @@ const Stats = () => {
         </a>
         <a href="https://azure.microsoft.com/en-us/">
           <img
-            src="https://img.shields.io/badge/azure-0098d7.svg?style=for-the-badge&logo=microsoft&logoColor=purple"
+            src="https://img.shields.io/badge/azure-0098d7.svg?style=for-the-badge&logo=azure&logoColor=purple"
             alt="Azure"
           />
         </a>
-        <a href="https://www.ibm.com/topics/mainframe">
+        <a href="https://fastapi.tiangolo.com/">
           <img
-            src="https://img.shields.io/badge/mainframe-972D83.svg?style=for-the-badge&logo=ibm&logoColor=white"
-            alt="Mainframe"
-          />
-        </a>
-
-        <a href="https://www.postgresql.org/">
-          <img
-            src="https://img.shields.io/badge/postgresql-5406C1.svg?style=for-the-badge&logo=postgresql&logoColor=white"
-            alt="postgres"
+            src="https://img.shields.io/badge/FastAPI-08D5AC.svg?style=for-the-badge&logo=fastapi&logoColor=white"
+            alt="FastAPI"
           />
         </a>
       </div>

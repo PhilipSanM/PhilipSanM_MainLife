@@ -2,12 +2,15 @@ import React from "react"
 import { graphql } from "gatsby"
 import Hero from "../components/Hero"
 import { StaticImage } from "gatsby-plugin-image"
-import Jobs from "../components/Jobs"
+// import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
-import Services from "../components/Services"
+// import Services from "../components/Services"
 import WelcomeMessage from "../components/WelcomeAnimation"
 import Seo from "../components/Seo"
 import Stats from "../components/Stats"
+
+import About from "../components/About"
+
 const IndexPage = ({ data }) => {
   const {
     allStrapiProject: { nodes: projects },
@@ -18,9 +21,7 @@ const IndexPage = ({ data }) => {
       <main>
         <WelcomeMessage />
         <Hero />
-        <Jobs />
-
-        <Services />
+        <About />
         <Stats />
 
         <Projects title="featured projects" showLink projects={projects} />
